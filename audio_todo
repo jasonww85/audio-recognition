@@ -1,0 +1,38 @@
+Audio Todo:
+
+
+	== label data 
+		a. by 512 segment: Class1 = click, Class0 = silent
+
+		b. Auto select onset, or manual select onset, or quasi ?
+
+		c. Label per fragement, or label per Onset ??
+		     - first per fragment. 
+		     	- updateAnalysis() should be every sync
+
+
+
+	== web 
+		a. select audio file
+		   - install php.
+		   - programming
+
+		b. make fft datapoints accurate and fast
+		   - highcharts addpoint/showpoint are bottleneck => done
+		   - accurately, not timely processing of points?
+
+
+	== requirements
+	   -- dataset
+	   a. how record  (online, in office)
+
+	   b. how label  (online ?)
+
+	   c. what type (single source / real ?)
+
+	   -- interest output
+
+	   a. distance/location
+	   b. activity ( number of persons --> talk / walk /  mouse / keyboard )
+	   
+
